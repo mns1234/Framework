@@ -28,21 +28,19 @@ public class ListExample {
 		list.add("Bharti");
 		list.add("Sinha");
 		list.add("1000");
-		list.add("Lal");		
+		list.add("Lal");
+		list.get(0);
 		
 		accessElements(list);
-		sortList(list);
-	}
-	
-	static void sortList (ArrayList<String>myList)
+		//sortList(list);
+	}	
+	/*static void sortList (ArrayList<String>myList)
 	{
 		Collections.sort(myList);
-		accessElements(myList);
-	}
+		accessElements(myList);	
+	}*/
 	public static void main(String[] args) {
 		ListExample.addToList();
-		//ArrayList array;
-
-		
+		ArrayList array;		
 	}
 }

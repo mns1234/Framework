@@ -17,17 +17,24 @@ public class SetExample {
 		Iterator itr=set.iterator();
 	while(itr.hasNext()){
 		System.out.println("the names are "+itr.next());
-
 	}
-	}	
+	}
+	//remove duplicates from array
+	static void removeAray(){
+		int[]arr={10,10,14,12,13,12,14};
+		HashSet<Integer>mySet=new HashSet<Integer>();
+		for(int i=0;i<arr.length;i++)
+		{
+		mySet.add(arr[i])	;
+		}
+	for(Integer integer : mySet){
+		System.out.println("the elemente were"+integer);
+	}
+	}
 	public static void main(String[] args) {	
-	SetExample.createSet();		
-	}
-	public static void removearray() {
-		// TODO Auto-generated method stub
-		
-	}
-	
+	//SetExample.createSet();	
+	SetExample.removeAray();
+	}	
 	}
 	
 

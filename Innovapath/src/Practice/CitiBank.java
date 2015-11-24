@@ -2,11 +2,15 @@ package Practice;
 
 public class CitiBank extends Bank{
 
-	int getRateOfInterest(){
+CitiBank(){
+	System.out.println(super.name);
+		
+	}
+	public int getRateofInterest(){
 		return 5;
-
+		}		
 	}
-
-	}
+	
+	
 
 

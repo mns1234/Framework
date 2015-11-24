@@ -3,7 +3,7 @@ package Practice;
 public class ChaseBank extends Bank {
 	
 
-		int getRateOfInterest(){
+		public int getRateofInterest(){
 			return 6;
 
 		}
