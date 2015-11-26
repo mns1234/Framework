@@ -26,7 +26,8 @@ public WebElement ValidateRegistration(){
 	cnfpwd.sendKeys("1234");
 	WebElement nextBtn=driver.findElement(By.id("submitbutton"));
     nextBtn.click();
-    WebElement errormessage=driver.findElement(By.id("errormsg_0_BirthYear" ));
+    WebElement errormessage=driver.findElement(By.id("errormsg_0_BirthYear" ));    
+	
     return errormessage;
 
 	
