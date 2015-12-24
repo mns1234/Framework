@@ -2,7 +2,7 @@ package Practice;
 
 
 
-public class Calc {
+public class Calculation {
 	public int addition()
 	{
 		int firstNum=6;
@@ -29,7 +29,7 @@ public class Calc {
 	
 	
 	public static void main(String[] args) {
-		Calc sum=new Calc();
+		Calculation sum=new Calculation();
 		double newone1=sum.newone(2, 3);
 		double newone2=sum.newone(3, 3.3);
 		double newone3=sum.newone(22, 8, 9);	

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [gmailSuite]">
+  <test name="registerTest(failed)">
+    <classes>
+      <class name="com.test.GmailRegistrationTest">
+        <methods>
+          <include name="testValidateform"/>
+        </methods>
+      </class> <!-- com.test.GmailRegistrationTest -->
+    </classes>
+  </test> <!-- registerTest(failed) -->
+</suite> <!-- Failed suite [gmailSuite] -->

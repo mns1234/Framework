@@ -1,16 +1,20 @@
 package com.pages;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+
 public class RegisterPage {
 	WebDriver driver;
+	
 	public RegisterPage(WebDriver driver)
 	{
 		this.driver=driver;
 	}
 public WebElement ValidateRegistration(){
+	
 	driver.get("https://www.gmail.com/intl/en/mail/help/about.html");
 	WebElement createAcctBtn=driver.findElement(By.id("gmail-create-account"));
 	createAcctBtn.click();

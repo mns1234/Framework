@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6792" started-at="2015-11-26T00:24:48Z" finished-at="2015-11-26T00:24:54Z">
+  <suite name="Default suite" duration-ms="6633" started-at="2015-11-27T23:58:44Z" finished-at="2015-11-27T23:58:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6792" started-at="2015-11-26T00:24:48Z" finished-at="2015-11-26T00:24:54Z">
+    <test name="Default test" duration-ms="6633" started-at="2015-11-27T23:58:44Z" finished-at="2015-11-27T23:58:50Z">
       <class name="com.test.RegisterPageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.test.RegisterPageTest@3ecf72fd]" name="init" is-config="true" duration-ms="3875" started-at="2015-11-25T16:24:48Z" finished-at="2015-11-25T16:24:51Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.RegisterPageTest@326de728]" name="init" is-config="true" duration-ms="3478" started-at="2015-11-27T15:58:44Z" finished-at="2015-11-27T15:58:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testValidateRegistration()[pri:0, instance:com.test.RegisterPageTest@3ecf72fd]" name="testValidateRegistration" duration-ms="2728" started-at="2015-11-25T16:24:51Z" finished-at="2015-11-25T16:24:54Z">
+        <test-method status="PASS" signature="testGetLInks()[pri:0, instance:com.test.RegisterPageTest@326de728]" name="testGetLInks" duration-ms="1118" started-at="2015-11-27T15:58:47Z" finished-at="2015-11-27T15:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLInks -->
+        <test-method status="PASS" signature="testValidateRegistration()[pri:0, instance:com.test.RegisterPageTest@326de728]" name="testValidateRegistration" duration-ms="1873" started-at="2015-11-27T15:58:48Z" finished-at="2015-11-27T15:58:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidateRegistration -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.test.RegisterPageTest@3ecf72fd]" name="exit" is-config="true" duration-ms="155" started-at="2015-11-25T16:24:54Z" finished-at="2015-11-25T16:24:54Z">
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.test.RegisterPageTest@326de728]" name="exit" is-config="true" duration-ms="136" started-at="2015-11-27T15:58:50Z" finished-at="2015-11-27T15:58:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->

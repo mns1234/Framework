@@ -18,7 +18,7 @@ public String validateform() {
 	WebElement username=driver.findElement(By.xpath(".//*[@id='GmailAddress']"));
 	username.sendKeys("mn");
 	driver.findElement(By.id("submitbutton")).click();
-	WebElement error=driver.findElement(By.className("errormsg"));
+	WebElement error=driver.findElement(By.xpath(".//*[@id='errormsg_0_Passwd']"));
 	errorMessage=error.getText();
 	driver.quit();
 	return errorMessage;
