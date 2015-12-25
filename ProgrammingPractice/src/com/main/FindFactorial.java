@@ -14,5 +14,8 @@ public class FindFactorial {
 		FindFactorial fact= new FindFactorial();
 		int val=fact.factorial(5);
 		System.out.println("the factorial "+val);
+		
+		Children g=new Children();
+		g.addno1();
 	}
 }
