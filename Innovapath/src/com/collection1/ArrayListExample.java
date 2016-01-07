@@ -1,6 +1,7 @@
 package com.collection1;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListExample {
 
@@ -18,13 +19,18 @@ arr.addAll(arr1);
 //arr.add(Integer.valueOf(1000));
 /*for(int i=0;i<arr.size();i++){
 	System.out.println(arr.get(i));
-}*/
+}
 for(String s:arr){
 	System.out.println(s);
 	/*if (s.equals("Mrinal")){
 	break;
 	
-	}*/
+	}
+}*/
+Iterator<String> it=arr.iterator();
+while(it.hasNext()){
+	String s=it.next();
+	System.out.println(s);
 }
 	}
 

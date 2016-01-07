@@ -1,6 +1,7 @@
 package com.collection1;
 
 import java.util.Iterator;
+
 import java.util.LinkedList;
 
 public class LinkedListExample {

@@ -9,10 +9,10 @@ public class ListExample {
 	
 	
 	static void accessElements(ArrayList list){
-		/*{
+		{
 			System.out.println("the first object is "+ list.get(1));
 			
-		}*/
+		}
 	for(Object obj:list){
 			System.out.println("The elements in the array are "+ obj);
 		}	
@@ -24,7 +24,7 @@ public class ListExample {
 	}	
 
 	static void addToList(){
-		ArrayList<String> list=new ArrayList();
+		ArrayList<String> list=new ArrayList<>();
 		list.add("Bharti");
 		list.add("Sinha");
 		list.add("1000");
