@@ -17,6 +17,7 @@ public class ReverseWord2 {
 		for(int i =0; i < len ; i++)
 		{
 			temp += str.charAt(i);
+			
 			if((str.charAt(i) == ' ') || (i == len))
             {
 				for(int x=len-1;x>=0;x--)
@@ -26,6 +27,7 @@ public class ReverseWord2 {
 						reverse += " ";
 			
 				}
+				
 				
 				temp = "";
             }

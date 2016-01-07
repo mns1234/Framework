@@ -19,5 +19,14 @@ public class square extends Shape {
 	}
 
 	
+	void calculareAreaCircle() {
+		
+	}
+
+	void calculareAreaCircle(int radius, double pi) {
+		
+	}
+
+	
 	
 }

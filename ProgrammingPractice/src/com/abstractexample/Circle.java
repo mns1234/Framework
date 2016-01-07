@@ -14,8 +14,14 @@ System.out.println("the circle");
 	void draw(int radius){
 		System.out.println("perfectly drawn circle!");
 	}
+	
 	void print(int length, int breadth) {
 		
+	}
+	
+	void calculareAreaCircle(int radius, double pi) {
+		double CAC=pi*(radius^2);
+		System.out.println("pi is used here to get area "+CAC);
 	}
 
 

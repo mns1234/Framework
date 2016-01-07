@@ -6,6 +6,7 @@ public class main {
 		s.draw();
 		s.print();
 		s.draw(5);
+		s.calculareAreaCircle(4, 3.14);
 		
 		Shape s1=new square(4,3);
 	s1.print(4, 3);
