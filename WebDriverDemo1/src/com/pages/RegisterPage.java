@@ -5,6 +5,8 @@ package com.pages;
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.WebElement;
 
+import com.thoughtworks.selenium.Wait;
+
 
 	public class RegisterPage {
 		WebDriver driver;
@@ -30,8 +32,8 @@ package com.pages;
 		cnfpwd.sendKeys("1234");
 		WebElement nextBtn=driver.findElement(By.id("submitbutton"));
 	    nextBtn.click();
-	    WebElement errormessage=driver.findElement(By.id("errormsg_0_BirthYear" ));    
-		
+	    WebElement errormessage=driver.findElement(By.id("errormsg_0_BirthYear" ));   
+	 
 	    return errormessage;
 
 		

@@ -1,6 +1,7 @@
 package com.main;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -27,8 +28,5 @@ public String validateform() {
 	
 }
 
-public String validateForm() {
-	// TODO Auto-generated method stub
-	return null;
-}
+
 }

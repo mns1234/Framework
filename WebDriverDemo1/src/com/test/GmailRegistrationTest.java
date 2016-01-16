@@ -1,6 +1,7 @@
 package com.test;
 
 import static org.testng.AssertJUnit.assertEquals;
+
 import org.testng.annotations.Test;
 
 import com.main.GmailRegistration;

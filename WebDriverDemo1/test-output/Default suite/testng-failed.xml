@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.GmailRegistrationTest">
+      <class name="com.test.WBQAAssignmentListTest">
         <methods>
-          <include name="testValidateform"/>
+          <include name="close"/>
+          <include name="init"/>
+          <include name="testgetlisttest"/>
         </methods>
-      </class> <!-- com.test.GmailRegistrationTest -->
+      </class> <!-- com.test.WBQAAssignmentListTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
